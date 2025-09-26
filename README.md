@@ -24,4 +24,26 @@ Interactive email and donation links for easy interaction
 Langues used
 - HTML
 - CSS
-git clone https://github.com/ST10465276/WEDE-PART2.git  
+git clone https://github.com/ST10465276/WEDE-PART2.git
+
+Evidence:
+## Responsive Design Evidence
+Here’s how the website looks on different devices:
+### IPad Pro View
+![ IPad Pro Screenshot](Screenshot3/https://advtechonline-my.sharepoint.com/:i:/r/personal/st10465276_rcconnect_edu_za/Documents/Desktop/TM%20Legal/Screenshot3.png?csf=1&web=1&e=tfGrOt)
+### iPHONE 14 PRO MAX
+![ iPHONE 14 PRO MAX](Screenshot2/https://advtechonline-my.sharepoint.com/:i:/r/personal/st10465276_rcconnect_edu_za/Documents/Desktop/TM%20Legal/Screenshot2.png?csf=1&web=1&e=B2yIbE)
+### Tablet View
+![Tablet Screenshot](Screenshot1/[tablet.png](https://advtechonline-my.sharepoint.com/:i:/r/personal/st10465276_rcconnect_edu_za/Documents/Desktop/TM%20Legal/Screenshot1.png?csf=1&web=1&e=HSPxw5)
+
+
+## Changelog
+### [Unreleased]
+Plan to add a gallery section with more images of community workshops  on the servicesPlan to add sliding images on the home pageNicely style hamburgerVertical arrangement of navigation bar as screen becomes smaller
+#### Added
+Insert a video in the services webpageHamburger menu for small screens  Follow us table including all TM Legal social links in the contact webpageDetailed Readme file Changelog Basic responsive design with CSS 
+#### Changed 
+Improved navigation bar styling  Updated footer with correct copyrightUpdated all background imagesUpdated the services webpage with a videoCentred all FAQ text with updated points for questionsUpdated all linked to the colour blueWidened the contact us table and inserted border-radius Centered all the about us page text Inserted image on the home page
+### Fixed
+ReadMe fileFooter that reminds in the bottom Navbar not displaying correctly on smaller devices
+
