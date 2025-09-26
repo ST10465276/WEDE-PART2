@@ -31,12 +31,11 @@ Evidence:
 ## Responsive Design Evidence
 Here’s how the website looks on different devices:
 ### IPad Pro View
-![ IPad Pro Screenshot](Screenshot3/https://advtechonline-my.sharepoint.com/:i:/r/personal/st10465276_rcconnect_edu_za/Documents/Desktop/TM%20Legal/Screenshot3.png?csf=1&web=1&e=tfGrOt)
+![ IPad Pro Screenshot](Images/Screenshot3.png)
 ### iPHONE 14 PRO MAX
-![ iPHONE 14 PRO MAX](Screenshot2/https://advtechonline-my.sharepoint.com/:i:/r/personal/st10465276_rcconnect_edu_za/Documents/Desktop/TM%20Legal/Screenshot2.png?csf=1&web=1&e=B2yIbE)
+![ iPHONE 14 PRO MAX](Images/Screenshot2.png)
 ### Tablet View
-![Tablet Screenshot](Screenshot1/[tablet.png](https://advtechonline-my.sharepoint.com/:i:/r/personal/st10465276_rcconnect_edu_za/Documents/Desktop/TM%20Legal/Screenshot1.png?csf=1&web=1&e=HSPxw5)
-
+![Tablet Screenshot](Images/Screenshot1.png)
 
 ## Changelog
 ### [Unreleased]
