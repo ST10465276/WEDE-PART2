@@ -1,0 +1,31 @@
+## Changelog
+
+### [Unreleased]
+Plan to add a gallery section with more images of community workshops  on the services
+Plan to add sliding images on the home page
+Nicely style hamburger
+Vertical arrangement of navigation bar as screen becomes smaller
+
+#### Added
+Insert a video in the services webpage
+Hamburger menu for small screens  
+Follow us table including all TM Legal social links in the contact webpage
+Detailed Readme file 
+Changelog 
+Basic responsive design with CSS 
+
+#### Changed
+Improved navigation bar styling  
+Updated footer with correct copyright
+Updated all background images
+Updated the services webpage with a video
+Centred all FAQ text with updated points for questions
+Updated all linked to the colour blue
+Widened the contact us table and inserted border-radius 
+Centered all the about us page text 
+Inserted image on the home page
+
+### Fixed
+ReadMe file
+Footer that reminds in the bottom 
+Navbar not displaying correctly on smaller devices 
