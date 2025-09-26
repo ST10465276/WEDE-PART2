@@ -5,11 +5,12 @@ TM Legal Website
 A responsive and professional website for TM Legal, designed to provide information about the organisation’s services, volunteering, donations, FAQs, and contact details
 About TM Legal
 
-The TM Legal website is built to show and help users learn what the organisation is all about also how they can get involoved
+The TM Legal website is built to show and help users learn what the organisation is all about while also getting a chance to be  involoved
+
 It includes:
 - Information about volunteering and donations opportunities
 -What services TM Legal offers
-- A detailed FAQ section for quick response
+- A detailed FAQ section for quick response for common questions 
 - A live location map to find the organisation
 - Contact information to get in touch with TM Legal such as with email,phone, social media links including facebook,linkedin and twitter
 
@@ -39,11 +40,28 @@ Here’s how the website looks on different devices:
 
 ## Changelog
 ### [Unreleased]
-Plan to add a gallery section with more images of community workshops  on the servicesPlan to add sliding images on the home pageNicely style hamburgerVertical arrangement of navigation bar as screen becomes smaller
+Plan to add a gallery section with more images of community workshops on the services page
+Plan to add sliding images on the home page
+Nicely style hamburger to be hiden in bigger screen 
+Vertical arrangement of navigation bar as screen becomes smaller
 #### Added
-Insert a video in the services webpageHamburger menu for small screens  Follow us table including all TM Legal social links in the contact webpageDetailed Readme file Changelog Basic responsive design with CSS 
+Insert a video in the services webpage
+Hamburger menu for small screens  
+Follow us table including all TM Legal social links in the contact webpage
+Detailed Readme file and changelog
+Basic responsive design with CSS 
 #### Changed 
-Improved navigation bar styling  Updated footer with correct copyrightUpdated all background imagesUpdated the services webpage with a videoCentred all FAQ text with updated points for questionsUpdated all linked to the colour blueWidened the contact us table and inserted border-radius Centered all the about us page text Inserted image on the home page
+Improved navigation bar styling 
+Updated footer with correct copyrightUpdated
+All background images updated
+The services webpage updated with a video 
+Centered all FAQ text with updated points for questions 
+Updated all linked to the colour blue
+Widened contact us table and inserted border-radius
+Centered all the about us page text
+Inserted image on the home page
 ### Fixed
-ReadMe fileFooter that reminds in the bottom Navbar not displaying correctly on smaller devices
+ReadMe file
+Footer that reminds in the bottom
+Navbar not displaying correctly on smaller devices
 
