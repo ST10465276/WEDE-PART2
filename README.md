@@ -24,4 +24,4 @@ Interactive email and donation links for easy interaction
 Langues used
 - HTML
 - CSS
-  
+git clone https://github.com/ST10465276/WEDE-PART2.git  
