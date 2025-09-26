@@ -1,0 +1,261 @@
+/* Reset */
+
+*{	
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+font-family: Arial, sans-serif;
+background-image: url('../Images/Image8.jpg');
+background-repeat: no-repeat;   
+background-size:cover;        
+color: #036c5f;
+}
+/* Nav bar */
+.navbar {
+display: flex;
+justify-content: space-between;  
+align-items: center;
+padding: 1rem 2rem;
+background-color: #726f6b;
+position: relative;
+z-index: 5;
+}
+.logo {
+height:80px;
+width:140px;
+object-fit: contain;
+}
+.nav-links {
+list-style: none;
+display: flex;
+gap: 1.5rem;
+}
+.nav-links a{
+color: black;
+text-decoration: none;
+font-weight: bold;
+
+}
+/* Hamburger menu (hidden on desktop) */
+.hamburger {
+display: none;
+flex-direction: column;
+width: 30px;
+height: 21px;
+justify-content: space-between;
+}
+.hamburger span {
+display: none;
+height: 3px;
+width: 100%;
+background: black;
+margin: 4px 0;
+transition: 0.4s;
+
+}
+/* Hamburger animation when menu is toggled */
+#menu-toggle:checked ~ .hamburger span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+#menu-toggle:checked ~ .hamburger span:nth-child(2) {
+    opacity: 0;
+}
+
+#menu-toggle:checked ~ .hamburger span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+.hamburger {
+display: flex; 
+   }
+.navbar {
+padding: 1rem; 
+}
+.logo {
+height: 60px; 
+width: 100px;
+
+}
+.nav-links {
+ display: none; 
+ flex-direction: column;  
+ width: 100%;
+background-color: grey;  
+ align-items: center;
+ position: absolute;
+ top: 100%;
+ left: 0;
+z-index: 10;
+
+}
+#menu-toggle:checked ~ .nav-links {
+ display: flex; 
+
+}
+
+}
+.container {
+  max-width: 1200px;
+  margin:auto;         
+  padding: 20px;
+}
+/*Main content*/ 
+
+.top-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 70px;
+   margin-top: 50px; /
+  margin-bottom: 20px;
+}
+.bold-table {
+  width: 500px;
+  border: 5px solid black;
+  border-radius: 12px; 
+  color:black; 
+  
+}
+.bold-table th{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  background: grey;
+  color:black; 
+  padding: 10px;  
+  font-style:italic;
+}
+.bold-table td {
+  padding: 10px 20px;
+  font-style:italic; 
+  font-weight: 700; 
+  border-bottom: 1px solid grey;
+}
+/* Contact details */
+.contact-details {
+  padding: 15px;
+  width: 300px;
+  margin-left: 100px;
+}
+.contact-details h3{
+  font-size: 24px;
+  margin-bottom: 40px;
+  font-style: italic;
+  color: black;
+     
+}
+.contact-details li {
+  margin-bottom: 20px;
+  color: black;
+   font-weight: 700; 
+}
+.contact-details a {
+  color: blue;
+   font-weight: 700; 
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  color: teal;      
+  text-decoration: underline;
+}
+.contact-location {
+   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 60px;
+  margin: 20px auto;
+  max-width: 1000px;
+  
+}
+/*Physical Address*/
+
+.address h3 {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  color:black;
+  margin-bottom: 10px;
+}
+.address p {
+	color: black;
+	margin-bottom: 20px;
+	 font-weight: 700; 
+}
+.address iframe {
+  margin-top: 5px;  
+  width: 200px;   
+  height: 230px; 
+  border: 0;
+}
+/* Follow Us */
+.follow-us{
+  flex: 1;
+  max-width: 300px;
+  width: 100%;
+  background: teal;
+  border-radius: 12px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.follow-us th {
+  background: grey;         
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  color: black;
+}
+.follow-us td {
+  padding: 12px;
+  border: none;                 
+}
+.follow-us a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: blue;
+}
+.follow-us a:hover {
+  text-decoration: underline;
+}
+ .contact-location {
+    flex-direction: column;
+    align-items: center;
+  }
+.address {
+ width: 100%;
+ }
+.address iframe {
+ width: 100%;
+ height: 250px;
+ }
+  .follow-us {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+ }
+
+/* Footer styling */
+
+footer {
+font-style: italic;
+background-color:  #726f6b;
+color: black;
+padding: 2.5rem 1rem;
+}
+.footer-nav a:hover {
+color: #00bcd4;
+}
+.footer-info {
+text-align: center;
+font-size: 0.9rem;
+color: #ccc;
+}
